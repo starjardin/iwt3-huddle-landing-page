@@ -1,0 +1,138 @@
+@import "./variables.scss";
+
+footer {
+  color: #fefefe;
+  background-color: $very-dark-cyan;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+footer a {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.footer__container * {
+  margin: 0;
+}
+
+//.background {
+//  width: 100vw;
+//  height: 100vh;
+//  background: tomato;
+//  overflow: hidden;
+//}
+
+//.background::before {
+//  content: "";
+//  display: block;
+//  width: 100vw;
+//  height: 100vw;
+//  border-radius: 50%;
+//  background: green;
+//  position: absolute;
+//  bottom: 50vh;
+//  left: 50%;
+//  transform: translateX(-50%);
+//}
+
+.footer__newsletter {
+  
+}
+
+.newsletter__heading {
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+.newsletter__paragraph {
+  margin-block: 1rem;
+}
+
+.newsletter__form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 5rem;
+}
+
+.newsletter__form > input{
+  background-color: #fefefe;
+  padding: .5rem;
+  display: block;
+  width: 98%;
+  border-radius: 7px;
+}
+
+.btn.newsletter__button.btn_submit {
+  @include btn;
+  padding: .5rem 1.3rem;
+  border-radius: 5px;
+  color: #fefefe;
+  margin-top: 1rem;
+  background-color: $pink;
+}
+
+.footer__features {
+  
+}
+
+.features__heading {
+  @include bg-left;
+  background-image: url('../images/icon-messages-white.svg');
+  padding-left: 3rem;
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+						
+.features__paragraph {
+  font-size: 16px;
+}
+
+.footer__conctact {
+  
+}
+
+.contact__phone, .contact__email {
+  @include bg-left;
+  padding-left: 2.5rem;
+  margin: 1rem 0;
+}
+.contact__phone {
+  background-image: url('../images/icon-phone.svg');
+}
+						
+.contact__email {
+  background-image: url('../images/icon-email.svg');
+}
+						
+.contact__media {
+  
+}
+
+.media__container {
+  padding: 0;
+}
+
+.media__list {
+  //list-style: none;
+  
+}
+
+.anchor {
+  text-decoration: none;
+  @include bg-left;
+  background-position: center;
+}
+
+.facebook {
+  
+}
+
+.instagram {
+  
+}
+
+.twitter {
+  
+}
