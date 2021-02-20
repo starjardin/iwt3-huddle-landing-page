@@ -72,6 +72,50 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff52bf;
 }
 
+.users__container {
+  background-color: #f5faff;
+  padding-block: 50%;
+}
+
+.ssscommunity {
+  padding-block: 50%;
+}
+
+.community__contianer {
+  text-align: center;
+}
+
+.community__heading {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.communities_img {
+  display: none;
+}
+
+.build-community__container {
+  text-align: center;
+  padding-block: 50%;
+}
+
+.build-commnunity__heading {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 70px;
+}
+
+.build-community__button {
+  border-radius: 25px;
+  border: 1.5px solid #ff52bf;
+  text-transform: capitalize;
+  background-color: #ff52bf;
+  padding: 0.7rem 2.5rem;
+  color: #fefefe;
+  box-shadow: 0px 12px 7px 1px #eeee;
+}
+
 footer {
   color: #fefefe;
   background-color: #00252e;
