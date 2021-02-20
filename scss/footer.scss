@@ -36,10 +36,6 @@ footer a {
 //  transform: translateX(-50%);
 //}
 
-.footer__newsletter {
-  
-}
-
 .newsletter__heading {
   text-transform: uppercase;
   padding-bottom: 1.5rem;
@@ -73,10 +69,6 @@ footer a {
   background-color: $pink;
 }
 
-.footer__features {
-  
-}
-
 .features__heading {
   @include bg-left;
   background-image: url('../images/icon-messages-white.svg');
@@ -87,10 +79,6 @@ footer a {
 						
 .features__paragraph {
   font-size: 16px;
-}
-
-.footer__conctact {
-  
 }
 
 .contact__phone, .contact__email {
@@ -106,33 +94,12 @@ footer a {
   background-image: url('../images/icon-email.svg');
 }
 						
-.contact__media {
-  
-}
-
 .media__container {
   padding: 0;
-}
-
-.media__list {
-  //list-style: none;
-  
 }
 
 .anchor {
   text-decoration: none;
   @include bg-left;
   background-position: center;
-}
-
-.facebook {
-  
-}
-
-.instagram {
-  
-}
-
-.twitter {
-  
 }
