@@ -4,26 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- displays site properly based on user's device -->
-
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 		<link
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<link rel="stylesheet" href="scss/index.scss">
 
 		<title>Huddle landing page with curved sections</title>
 
-		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
 	</head>
 	<body>
 		<header class="header">
@@ -77,40 +69,48 @@
 				
 				<section class="grow">
 					<div class="grow__container">
+						<img src="./images/illustration-grow-together.svg" />
 						<header class="grow__header">
 							<h2 class="grow__heading">
 								Grow Together
 							</h2>
-							<p class="grow__text">
-								Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. 
-							</p>
 						</header>
+						<p class="grow__text">
+							Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. 
+						</p>
 					</div>
 				</section>
 				
 				<section class="conversation">
 					<div class="conversation__container">
+						<img 
+							src="./images/illustration-flowing-conversation.svg" 
+							alt="flow-conversation" >
 						<header class="conversation__header">
 							<h2 class="conversation__heading">
 								Flowing conversations
 							</h2>
-							<p class="conversation__text">
-								 You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
-							</p>
 						</header>
+						<p class="conversation__text">
+							 You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+						</p>
 					</div>
 				</section>
 				
 				<section class="users">
 					<div class="users__container">
+						<img 
+							src="./images/illustration-your-users.svg" 
+							alt="user_image" 
+						>
 						<header class="users__header">
 							<h2 class="users__heading">
 								Your Users
 							</h2>
-							<p class="users__text">
-								It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
-							</p>
 						</header>
+						<p class="users__text">
+							It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+						</p>
 					</div>
 				</section>
 				
@@ -120,10 +120,10 @@
 							<h2 class="build-commnunity__heading">
 								Ready To Build Your Community?
 							</h2>
-							<button class="build-community__button">
-								Get Started For Free
-							</button>
 						</header>
+						<button class="build-community__button">
+							Get Started For Free
+						</button>
 					</div>
 				</section>
 			</div>
@@ -189,3 +189,4 @@
 		</footer>
 	</body>
 </html>
+

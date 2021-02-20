@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/starjardin/iwt3-huddle-landing-page/issues"
   },
-  "homepage": "https://github.com/starjardin/iwt3-huddle-landing-page#readme"
+  "homepage": "https://github.com/starjardin/iwt3-huddle-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
 }

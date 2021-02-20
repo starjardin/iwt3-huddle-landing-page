@@ -1,0 +1,21 @@
+@import "./mixin.scss";
+@import "./variables.scss";
+
+.header__container {
+  @include flex-row;
+}
+
+.header__heading {
+  background-image: url('../images/icon-messages.svg');
+  @include bg-left;
+  padding-left: 3rem;
+}
+
+.header__button {
+  background-color: #fefefe;
+  padding: .5rem 2rem;
+  border-radius: 21px;
+  border: 1.5px solid $pink;
+  text-transform: capitalize;
+  color: $pink;
+}

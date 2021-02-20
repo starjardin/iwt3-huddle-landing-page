@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__heading {
+  background-image: url("/icon-messages.d3be2dfc.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 3rem;
+}
+
+.header__button {
+  background-color: #fefefe;
+  padding: 0.5rem 2rem;
+  border-radius: 21px;
+  border: 1.5px solid #ff52bf;
+  text-transform: capitalize;
+  color: #ff52bf;
+}
+
+/*# sourceMappingURL=/scss.6b84482b.css.map */
