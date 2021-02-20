@@ -17,6 +17,30 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.masthead {
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 15%;
+}
+
+.masthead__heading {
+  font-weight: 700;
+}
+
+.masthead__paragraph {
+  font-weight: 400;
+  margin: 2rem 0 3rem 0;
+}
+
+.masthead__button {
+  border-radius: 25px;
+  border: 1.5px solid #ff52bf;
+  text-transform: capitalize;
+  background-color: #ff52bf;
+  color: #fefefe;
+  padding: 0.6rem 2.3rem;
+}
+
 .header__container {
   display: flex;
   flex-direction: row;
@@ -33,11 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__button {
-  background-color: #fefefe;
-  padding: 0.5rem 2rem;
-  border-radius: 21px;
+  border-radius: 25px;
   border: 1.5px solid #ff52bf;
   text-transform: capitalize;
+  background-color: #fefefe;
+  padding: 0.5rem 2rem;
   color: #ff52bf;
 }
 

@@ -1,0 +1,24 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+.masthead {
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 15%;
+}
+
+.masthead__heading {
+  font-weight: 700;
+}
+
+.masthead__paragraph {
+  font-weight: 400;
+  margin: 2rem 0 3rem 0;
+}
+
+.masthead__button {
+  @include btn;
+  background-color: $pink;
+  color: #fefefe;
+  padding: .6rem 2.3rem;
+}

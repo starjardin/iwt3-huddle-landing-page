@@ -12,10 +12,8 @@
 }
 
 .header__button {
+  @include btn;
   background-color: #fefefe;
   padding: .5rem 2rem;
-  border-radius: 21px;
-  border: 1.5px solid $pink;
-  text-transform: capitalize;
   color: $pink;
 }
