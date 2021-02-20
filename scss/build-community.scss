@@ -1,0 +1,23 @@
+@import "./variables.scss";
+@import "./mixin.scss";
+
+
+.build-community__container {
+  text-align: center;
+  padding-block: 50%;
+}
+
+.build-commnunity__heading {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 70px;
+}
+
+.build-community__button {
+  @include btn;
+  background-color: $pink;
+  padding: .7rem 2.5rem;
+  color: #fefefe;
+  box-shadow: 0px 12px 7px 1px #eeee;
+}
