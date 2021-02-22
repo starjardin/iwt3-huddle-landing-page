@@ -1,5 +1,14 @@
-.ssscommunity {
-  padding-block: 50%;
+@import "mixin.scss";
+@import "variables.scss";
+
+.community {
+  padding-top: 80%;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../images/screen-mockups.svg');
+  background-position: top center;
+  
 }
 
 .community__contianer {
@@ -9,7 +18,18 @@
 .community__heading {
   font-size: 30px;
   font-weight: bolder;
-}
-.communities_img {
   display: none;
 }
+
+.communities__big-text {
+  font-size: 6rem;
+  line-height: 10rem;
+  padding-top: 2rem;
+}
+
+.communities__big-text.members {
+  background-image: url('../images/icon-communities.svg');
+  @include bg-left;
+  background-position: top;
+}
+

@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\icon-messages.svg":[["icon-messages.d3be2dfc.svg","images/icon-messages.svg"],"images/icon-messages.svg"],"./..\\images\\icon-messages-white.svg":[["icon-messages-white.2186f960.svg","images/icon-messages-white.svg"],"images/icon-messages-white.svg"],"./..\\images\\icon-phone.svg":[["icon-phone.cc84a2ca.svg","images/icon-phone.svg"],"images/icon-phone.svg"],"./..\\images\\icon-email.svg":[["icon-email.e16cbdce.svg","images/icon-email.svg"],"images/icon-email.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\images\\icon-messages.svg":[["icon-messages.d3be2dfc.svg","images/icon-messages.svg"],"images/icon-messages.svg"],"./..\\images\\screen-mockups.svg":[["screen-mockups.5b88d862.svg","images/screen-mockups.svg"],"images/screen-mockups.svg"],"./..\\images\\icon-communities.svg":[["icon-communities.84cd8894.svg","images/icon-communities.svg"],"images/icon-communities.svg"],"./..\\images\\bg-footer-top-mobile.svg":[["bg-footer-top-mobile.e81a95a1.svg","images/bg-footer-top-mobile.svg"],"images/bg-footer-top-mobile.svg"],"./..\\images\\icon-messages-white.svg":[["icon-messages-white.2186f960.svg","images/icon-messages-white.svg"],"images/icon-messages-white.svg"],"./..\\images\\icon-phone.svg":[["icon-phone.cc84a2ca.svg","images/icon-phone.svg"],"images/icon-phone.svg"],"./..\\images\\icon-email.svg":[["icon-email.e16cbdce.svg","images/icon-email.svg"],"images/icon-email.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52413" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56099" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

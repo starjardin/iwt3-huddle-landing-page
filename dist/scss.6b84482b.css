@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+button {
+  cursor: pointer;
+}
+
 .masthead {
   text-align: center;
   padding-top: 25%;
@@ -75,10 +79,33 @@ h1, h2, h3, h4, h5, h6 {
 .users__container {
   background-color: #f5faff;
   padding-block: 50%;
+  text-align: center;
 }
 
-.ssscommunity {
-  padding-block: 50%;
+.users__header {
+  padding: 0;
+  margin-top: 20%;
+}
+
+.users__heading {
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: bolder;
+}
+
+.users__image {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.community {
+  padding-top: 80%;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/screen-mockups.5b88d862.svg");
+  background-position: top center;
 }
 
 .community__contianer {
@@ -88,10 +115,21 @@ h1, h2, h3, h4, h5, h6 {
 .community__heading {
   font-size: 30px;
   font-weight: bolder;
+  display: none;
 }
 
-.communities_img {
-  display: none;
+.communities__big-text {
+  font-size: 6rem;
+  line-height: 10rem;
+  padding-top: 2rem;
+}
+
+.communities__big-text.members {
+  background-image: url("/icon-communities.84cd8894.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
 }
 
 .build-community__container {
@@ -118,14 +156,21 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   color: #fefefe;
-  background-color: #00252e;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 4rem;
+  background-image: url("/bg-footer-top-mobile.e81a95a1.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 6%;
 }
 
 footer a {
   color: #fefefe;
   text-decoration: none;
+}
+
+.footer__container {
+  background-color: #00252e;
 }
 
 .footer__container * {

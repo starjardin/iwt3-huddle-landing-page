@@ -2,9 +2,12 @@
 
 footer {
   color: #fefefe;
-  background-color: $very-dark-cyan;
-  padding-top: 6rem;
+  padding-top: 3rem;
   padding-bottom: 4rem;
+  background-image: url('../images/bg-footer-top-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 6%;
 }
 
 footer a {
@@ -12,29 +15,13 @@ footer a {
   text-decoration: none;
 }
 
+.footer__container {
+  background-color: $very-dark-cyan;
+}
+
 .footer__container * {
   margin: 0;
 }
-
-//.background {
-//  width: 100vw;
-//  height: 100vh;
-//  background: tomato;
-//  overflow: hidden;
-//}
-
-//.background::before {
-//  content: "";
-//  display: block;
-//  width: 100vw;
-//  height: 100vw;
-//  border-radius: 50%;
-//  background: green;
-//  position: absolute;
-//  bottom: 50vh;
-//  left: 50%;
-//  transform: translateX(-50%);
-//}
 
 .newsletter__heading {
   text-transform: uppercase;
