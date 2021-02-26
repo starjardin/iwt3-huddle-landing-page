@@ -154,6 +154,35 @@ button {
   box-shadow: 0px 12px 7px 1px #eeee;
 }
 
+.grow {
+  background-color: #F6FBFF;
+  position: relative;
+}
+
+.grow::before, .grow::after {
+  content: "";
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.grow::before {
+  background-image: url(/bg-section-top-mobile-1.73cd2560.svg);
+  padding-top: 20rem;
+  background-position: top center;
+  top: -25%;
+}
+
+.grow::after {
+  background-image: url("/bg-section-bottom-mobile-1.ac148f05.svg");
+  padding-bottom: 20rem;
+  background-position: bottom center;
+  bottom: -12%;
+}
+
 footer {
   color: #fefefe;
   padding-top: 3rem;
