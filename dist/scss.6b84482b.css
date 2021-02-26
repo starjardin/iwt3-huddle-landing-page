@@ -161,9 +161,29 @@ footer {
   background-image: url("/bg-footer-top-mobile.e81a95a1.svg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 100% 6%;
+  background-size: 100% 5%;
 }
 
+@media (min-width: 500px) {
+  footer {
+    background-size: 100% 7%;
+  }
+}
+@media (min-width: 700px) {
+  footer {
+    background-size: 100% 8%;
+  }
+}
+@media (min-width: 1000px) {
+  footer {
+    background-size: 100% 8%;
+  }
+}
+@media (min-width: 1400px) {
+  footer {
+    background-size: 100% 10%;
+  }
+}
 footer a {
   color: #fefefe;
   text-decoration: none;
